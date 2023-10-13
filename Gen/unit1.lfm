@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 388
+  Height = 101
+  Top = 430
+  Width = 287
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 101
+  ClientWidth = 287
+  LCLVersion = '2.0.10.0'
+  object ProgressBar1: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 40
+    Width = 272
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 72
+    Width = 272
+    Caption = 'Generate'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 8
+    Width = 120
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+    Text = '1024'
+    TextHint = 'size of file in mb'
+  end
+  object Edit2: TEdit
+    Left = 160
+    Height = 23
+    Top = 8
+    Width = 120
+    ReadOnly = True
+    TabOrder = 3
+    Text = 'amount of structures'
+  end
+end
